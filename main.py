@@ -1107,7 +1107,7 @@ if "defender_strategy" not in st.session_state:
 # ============================================================
 # Streamlit app
 # ============================================================
-st.title("Multi-Defender Apollonius Target-Defense Game")
+st.title("Multi-Agent Target Defense in Arbitrary Environment Shapes")
 
 st.write(
     "Choose between the restored Apollonius-based optimal defender policy and the pure-pursuit defender policy."
