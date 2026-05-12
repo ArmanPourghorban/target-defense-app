@@ -1083,8 +1083,8 @@ def plot_capture_percentage(time_history, capture_percentage_history):
 
     ax.plot(time_history, capture_percentage_history, linewidth=2)
     ax.set_xlabel("Time")
-    ax.set_ylabel("Capture percentage")
-    ax.set_title("Capture Percentage Over Time")
+    ax.set_ylabel("Capture Fraction")
+    ax.set_title("Capture Fraction Over Time")
     ax.set_ylim([-0.05, 1.05])
     ax.grid(True)
 
